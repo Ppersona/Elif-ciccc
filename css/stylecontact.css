@@ -1,0 +1,153 @@
+body{
+    background: #fff4cc url(../image/bg.png) repeat-y;
+    background-size: 100% auto;
+    font-family: 'verdana';
+    text-align: center;
+}
+img{
+    width:100%;
+    height: auto;
+}
+.wrapper{
+    width: 90%;
+    margin: 50px auto;
+    background: #fff;
+}
+.logo{
+    background: #231f20;
+}
+.logo img{
+    width: 200px;
+}
+nav{
+    border-bottom: 1px solid #231f20;
+}
+nav ul{
+    font-size: 0;
+}
+nav li{
+    display: inline-block;
+    width: 25%;
+    font-size: 14px;
+}
+nav li a{
+    color: #000;
+    text-decoration: none;
+    padding: 22px 0;
+    display: block;
+}
+nav li a:hover span{
+    border-bottom:5px solid #231f20;
+}
+
+/*footer*/
+footer{
+    background: #241f20;
+}
+.footer_inside{
+    font-size: 0;
+    text-align: left;
+    padding: 20px;
+}
+.footer_inside ul{
+    font-size: 14px;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin-right: 30px;
+}
+.ttl_list{
+    color: #eac586;
+    margin-bottom: 10px;
+}
+.footer_inside li a{
+    color: #aca9a9;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+.footer_inside li a:hover{
+    opacity: 0.6;
+}
+.news_txt{
+    color: #aca9a9;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.email_input input{
+    background: none;
+    border: 1px solid #ccc;
+    display: block;
+    width: 90%;
+    padding:10px 5px;
+}
+.sns_img{
+    display: inline-block;
+    margin-right: 10px;
+}
+form {
+    padding:25px;
+    cursor:pointer;
+    display:block;
+    width:400px;
+    height: 500px;
+    margin: 0 auto;
+    text-align:left;
+    background-color: #241f20;
+    color: white; 
+    font-family: verdana;
+    font-size: 19px;
+    border-radius: 10px;
+} 
+h1 {
+    text-align:center;
+    font-family: verdana;
+    font-size: 35px;
+    
+}
+main{
+    overflow: hidden;
+}
+.contact{
+    float: right;
+    padding: 90px;
+}
+.new-in{
+    width: 390px;
+    height: 30px;
+    border-radius: 10px;
+}
+textarea{
+    width: 390px;
+    height: 100px;
+    border-radius: 10px;
+}
+button{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+}
+.map{
+    float: left;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 40px;
+}
+h2{
+    font-family: verdana;
+    font-size: 25px;
+    text-align: center;
+}
+.address{
+    float: right;
+    margin-top: 250px;
+    margin-right: 250px;
+}
+.small{
+    display:inline-block;
+    width: 300px;
+    margin-top: 200px;
+    margin-left: 60px;
+    font-family: verdana;
+    color: #241f20;
+}
