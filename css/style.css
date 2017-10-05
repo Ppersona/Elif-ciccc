@@ -39,7 +39,83 @@ nav li a{
 nav li a:hover span{
     border-bottom:5px solid #231f20;
 }
-
+/*top*/
+.top_content{
+    position: relative;
+}
+.top_img{
+    margin-bottom: -2px;
+}
+.description{
+    position: absolute;
+    top: 40%;
+    left: 29%;
+    font-size: 300%;
+    font-weight: bold;
+    color: #fff;
+}
+.top_ttl{
+    font-size: 150%;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 40px;
+    display: inline-block;
+}
+.top_ttl:before{
+    content: "";
+    width: 65px;
+    height: 5px;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: #000;
+}
+.product_content ul{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 0;
+}
+.product_content li{
+    font-size: 13px;
+    display: inline-block;
+    vertical-align: top;
+    width: 27%;
+    margin: 0 3% 40px;
+}
+.product_content li a{
+    display: block;
+}
+.product_content li a:hover{
+    opacity: 0.6;
+}
+.product_name{
+    margin: 10px 0;
+    font-size: 130%;
+    font-weight: bold;
+}
+.see_btn{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 39%;
+}
+.see_btn a{
+    display: block;
+    border: 1px solid #fff;
+    font-size: 144%;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 70px;
+}
+.see_btn a:hover{
+    background: #fff;
+    color: #000;
+}
+.product_content{
+    margin-bottom: 70px;
+}
 /*detail page*/
 .detail,
 .recommend{
