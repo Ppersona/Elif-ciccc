@@ -40,6 +40,126 @@ nav li a:hover span{
     border-bottom:5px solid #231f20;
 }
 
+/*detail page*/
+.detail,
+.recommend{
+    overflow: hidden;
+    width: 80%;
+    margin: 50px auto;
+}
+.detail_left{
+    float: left;
+    width:40%;
+}
+.detail_left ul{
+    font-size: 0;
+    text-align: left;
+    margin-top: 15px;
+}
+.detail_left li{
+    display: inline-block;
+    width:20%;
+    margin-right: 15px;
+}
+/*
+.detail_left li a{
+    display: block;
+}
+.detail_left li a:hover{
+    opacity: 0.6;
+}
+*/
+.detail_right{
+    float: right;
+    width: 55%;
+    text-align: left;
+}
+.cloth_ttl{
+    font-weight: bold;
+    font-size: 150%;
+    position: relative;
+    padding: 6px 0 0;
+    margin-bottom: 15px;
+}
+.cloth_ttl:before{
+    content: '';
+    display: block;
+    width: 15px;
+    height: 5px;
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.price{
+    font-size: 140%;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.select_size{
+    margin-bottom: 30px;
+}
+.select_size select{
+    font-size: 130%;
+    margin-right: 15px;
+}
+.add_btn{
+    margin-bottom: 40px;
+}
+.add_btn button{
+    background: #000;
+    border: none;
+    color: #fff;
+    font-size: 150%;
+    font-weight: bold;
+    padding: 10px 80px;
+    border: 1px solid #000;
+}
+.add_btn button:hover{
+    cursor: pointer;
+    background: #fff;
+    color: #000;
+}
+.info{
+    color: #999898;
+}
+.detail_ttl2{
+    font-size: 120%;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.info_txt{
+    margin-bottom: 20px;
+}
+.sns_btn{
+    font-size: 0;
+}
+.sns_btn li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.sns_btn li img{
+    width: inherit;
+    height: auto;
+}
+.recommend .cloth_ttl{
+    text-align: left;
+}
+.recommend ul{
+    font-size: 0;
+    text-align: left;
+}
+.recommend ul li{
+    display: inline-block;
+    width: 20%;
+    margin-right: 15px;
+}
+.recommend ul li a{
+    display: block;
+}
+.recommend ul li a:hover{
+    opacity: 0.6;
+}
 /*footer*/
 footer{
     background: #241f20;
