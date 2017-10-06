@@ -237,6 +237,28 @@ nav li a:hover span{
 .recommend ul li a:hover{
     opacity: 0.6;
 }
+table{
+    border: 1px solid #000;
+    width: 100%;
+    margin: 40px 0;
+}
+table .table_ttl th{
+    text-align: center;
+    padding: 8px 0;
+    background: #000;
+    color: #fff;
+}
+table th{
+    width: 25%;
+    padding: 5px;
+    border-bottom: 1px solid #000;
+    background: #000;
+    color: #fff;
+}
+table td{
+    border: 1px solid #000;
+    text-align: center;
+}
 /*footer*/
 footer{
     background: #241f20;
