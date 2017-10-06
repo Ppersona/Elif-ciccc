@@ -237,6 +237,25 @@ nav li a:hover span{
 .recommend ul li a:hover{
     opacity: 0.6;
 }
+/*about us */
+main{
+    overflow: hidden;
+    width: 81%;
+    margin: 0 auto;
+}
+.box1 {
+    float: left;
+    width: 400px;
+    height: auto;
+}
+.box2 {
+    float: right;
+    font-family: "verdana";
+    font-size: 16px;
+    width: 300px;
+    padding: 60px 20px 0 0;
+    margin: 5px;
+}
 /*footer*/
 footer{
     background: #241f20;
