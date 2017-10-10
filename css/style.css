@@ -52,7 +52,9 @@ nav li a span.select{
 .description{
     position: absolute;
     top: 40%;
-    left: 29%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     font-size: 300%;
     font-weight: bold;
     color: #fff;
@@ -102,7 +104,10 @@ nav li a span.select{
     display: inline-block;
     position: absolute;
     top: 50%;
-    left: 39%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 20%;
 }
 .see_btn a{
     display: block;
