@@ -37,7 +37,7 @@ nav li a{
     display: block;
 }
 nav li a:hover span,
-nav li a.select span{
+nav li a span.select{
     border-bottom:5px solid #231f20;
 }
 /*top*/
