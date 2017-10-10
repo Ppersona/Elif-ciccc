@@ -40,6 +40,9 @@ nav li a:hover span{
     border-bottom:5px solid #231f20;
 }
 
+nav li a span.select{
+    border-bottom:5px solid #231f20;
+}
 /*footer*/
 footer{
     background: #241f20;

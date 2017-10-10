@@ -39,6 +39,9 @@ nav li a{
 nav li a:hover span{
     border-bottom:5px solid #231f20;
 }
+nav li a span.select{
+    border-bottom:5px solid #231f20;
+}
 /*top*/
 .top_content{
     position: relative;

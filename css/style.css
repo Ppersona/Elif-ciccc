@@ -36,7 +36,9 @@ nav li a{
     padding: 22px 0;
     display: block;
 }
-nav li a:hover span,
+nav li a:hover span{
+    border-bottom:5px solid #231f20;
+}
 nav li a span.select{
     border-bottom:5px solid #231f20;
 }
